@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add these styles to index.css or App.css */
+
+.group:hover .group-hover\:opacity-100 {
+    opacity: 1;
+  }
+  
+  .group-hover\:scale-105 {
+    transform: scale(1.05);
+  }
+  
