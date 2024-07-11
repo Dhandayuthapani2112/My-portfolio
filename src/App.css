@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add these styles to index.css or App.css */
+
+.group:hover .group-hover\:opacity-100 {
+    opacity: 1;
+  }
+  
+  .group-hover\:scale-105 {
+    transform: scale(1.05);
+  }
+  .project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  .card-hover-effect {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card-hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+    
